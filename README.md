@@ -17,6 +17,8 @@ I build small tools where finance meets machine learning, and I try to make each
 
 **Equity Research Copilot** (private). Web app for equity research across US, European, Asian and African markets: fundamental ratios, news sentiment and a structured research note, with a FastAPI and LLM pipeline.
 
+**[autonomous-ai-agent](https://github.com/YoussElo/autonomous-ai-agent)**. A tool-use agent in about 450 lines of Python. A separate verifier call, which sees only the task and the trace of actions, decides whether the task is done. Tools are confined to one folder, every call is logged append-only, and the tests run without an API key. Small and early: one commit, tests cover the demo mode only.
+
 **[AI-Finance-Portfolio](https://github.com/YoussElo/AI-Finance-Portfolio)**. Coursework and research notebooks, including card fraud detection (XGBoost with SMOTE, AUC-ROC 0.98).
 
 **MSc capstone** (in progress). Credit default prediction: machine learning models against logistic regression, framed by Basel and SR 11-7.
